@@ -5,8 +5,9 @@
 ![Menu](https://i.imgur.com/x7vfGAU.png)
 
 ---
-Field on the left is the input for what to type
-Field on the right is how many times to type message
-Delay tickbox will add a slight delay between keypresses
-While spamming you can press the F7 key to stop the spamming process, the key can be changed in settings.
-The spammer has a built in 5 second delay after you press the "Spam away" button so that you can switch to the appropriate window.
+## How to use
+* Field on the left is the input for what to type
+* Field on the right is how many times to type message
+* Delay tickbox will add a slight delay between keypresses
+* While spamming you can press the F7 key to stop the spamming process, the key can be changed in settings.
+* The spammer has a built in 5 second delay after you press the "Spam away" button so that you can switch to the appropriate window.
