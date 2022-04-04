@@ -110,15 +110,15 @@ public class Typer {
                     //initialize character to type
                     char toProcess = characters[typed];
                     //type key
-                    if (toDelay = true) {robot.delay(DelayGenerator.getRandomVeryShort());}
+                    if (toDelay == true) {robot.delay(DelayGenerator.getRandomVeryShort());}
                     robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(toProcess));
-                    if (toDelay = true) {robot.delay(DelayGenerator.getRandomShort());}
+                    if (toDelay == true) {robot.delay(DelayGenerator.getRandomShort());}
                     robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(toProcess));
                 }
                 //send 
-                if (toDelay = true) {robot.delay(DelayGenerator.getRandomVeryShort());}
+                if (toDelay == true) {robot.delay(DelayGenerator.getRandomVeryShort()); System.out.println("i am delayed");}
                 robot.keyPress(KeyEvent.VK_ENTER);
-                if (toDelay = true) {robot.delay(DelayGenerator.getRandomShort());}
+                if (toDelay == true) {robot.delay(DelayGenerator.getRandomShort());}
                 robot.keyRelease(KeyEvent.VK_ENTER);
 
                 //delay by 1 sec
